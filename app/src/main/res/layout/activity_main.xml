@@ -92,6 +92,8 @@
                     android:layout_marginTop="8dp"
                     android:text="O Colégio"
                     android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/raleway_thin"
                     app:layout_constraintEnd_toStartOf="@+id/guideline4"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="@+id/guideline2"
@@ -117,6 +119,8 @@
                     android:layout_marginTop="8dp"
                     android:text="Segmentos"
                     android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/raleway_thin"
                     app:layout_constraintEnd_toStartOf="@+id/guideline5"
                     app:layout_constraintHorizontal_bias="0.6"
                     app:layout_constraintStart_toEndOf="@+id/textView"
@@ -142,6 +146,8 @@
                     android:layout_marginTop="8dp"
                     android:text="Matrícula"
                     android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/raleway_thin"
                     app:layout_constraintEnd_toStartOf="@+id/guideline3"
                     app:layout_constraintHorizontal_bias="0.517"
                     app:layout_constraintStart_toStartOf="@+id/guideline5"
@@ -181,6 +187,8 @@
                     android:layout_marginTop="8dp"
                     android:text="Serviços Online"
                     android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/raleway_thin"
                     app:layout_constraintEnd_toStartOf="@+id/guideline4"
                     app:layout_constraintStart_toStartOf="@+id/guideline2"
                     app:layout_constraintTop_toBottomOf="@+id/imageView8" />
@@ -205,6 +213,8 @@
                     android:layout_marginTop="8dp"
                     android:text="Comunicados"
                     android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/raleway_thin"
                     app:layout_constraintEnd_toStartOf="@+id/guideline5"
                     app:layout_constraintHorizontal_bias="0.487"
                     app:layout_constraintStart_toStartOf="@+id/guideline4"
@@ -230,6 +240,8 @@
                     android:layout_marginTop="8dp"
                     android:text="Biblioteca"
                     android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/raleway_thin"
                     app:layout_constraintEnd_toStartOf="@+id/guideline3"
                     app:layout_constraintStart_toStartOf="@+id/guideline5"
                     app:layout_constraintTop_toBottomOf="@+id/imageView10" />
@@ -261,6 +273,8 @@
                     android:layout_marginTop="8dp"
                     android:text="Uniforme\nEscolar"
                     android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/raleway_thin"
                     app:layout_constraintEnd_toStartOf="@+id/guideline4"
                     app:layout_constraintStart_toStartOf="@+id/guideline2"
                     app:layout_constraintTop_toBottomOf="@+id/imageView11" />
@@ -285,6 +299,8 @@
                     android:layout_marginTop="8dp"
                     android:text="Material\nEscolar"
                     android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/raleway_thin"
                     app:layout_constraintEnd_toStartOf="@+id/guideline5"
                     app:layout_constraintStart_toStartOf="@+id/guideline4"
                     app:layout_constraintTop_toBottomOf="@+id/imageView12" />
@@ -302,14 +318,17 @@
 
                 <TextView
                     android:id="@+id/textView10"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="69dp"
+                    android:layout_height="32dp"
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="8dp"
+                    android:fontFamily="@font/raleway_thin"
                     android:text="Calendário\nEscolar"
                     android:textAlignment="center"
+                    android:textStyle="bold"
                     app:layout_constraintEnd_toStartOf="@+id/guideline3"
+                    app:layout_constraintHorizontal_bias="0.333"
                     app:layout_constraintStart_toStartOf="@+id/guideline5"
                     app:layout_constraintTop_toBottomOf="@+id/imageView13" />
 
@@ -333,6 +352,8 @@
                     android:layout_marginTop="8dp"
                     android:text="Bolsa de \nEstudos"
                     android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/raleway_thin"
                     app:layout_constraintEnd_toStartOf="@+id/guideline4"
                     app:layout_constraintStart_toStartOf="@+id/guideline2"
                     app:layout_constraintTop_toBottomOf="@+id/imageView14" />
@@ -357,6 +378,8 @@
                     android:layout_marginTop="8dp"
                     android:text="Notícias"
                     android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/raleway_thin"
                     app:layout_constraintEnd_toStartOf="@+id/guideline5"
                     app:layout_constraintStart_toStartOf="@+id/guideline4"
                     app:layout_constraintTop_toBottomOf="@+id/imageView15" />
@@ -381,6 +404,8 @@
                     android:layout_marginTop="8dp"
                     android:text="Vídeos"
                     android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/raleway_thin"
                     app:layout_constraintEnd_toStartOf="@+id/guideline3"
                     app:layout_constraintStart_toStartOf="@+id/guideline5"
                     app:layout_constraintTop_toBottomOf="@+id/imageView18" />
@@ -412,6 +437,8 @@
                     android:layout_marginTop="8dp"
                     android:text="Downloads"
                     android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/raleway_thin"
                     app:layout_constraintEnd_toStartOf="@+id/guideline4"
                     app:layout_constraintStart_toStartOf="@+id/guideline2"
                     app:layout_constraintTop_toBottomOf="@+id/imageView17" />
@@ -436,6 +463,8 @@
                     android:layout_marginTop="8dp"
                     android:text="Unidades"
                     android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/raleway_thin"
                     app:layout_constraintEnd_toStartOf="@+id/guideline5"
                     app:layout_constraintStart_toStartOf="@+id/guideline4"
                     app:layout_constraintTop_toBottomOf="@+id/imageView19" />
@@ -460,6 +489,9 @@
                     android:layout_marginTop="8dp"
                     android:text="Fale Conosco"
                     android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/raleway_thin"
+
                     app:layout_constraintEnd_toStartOf="@+id/guideline3"
                     app:layout_constraintStart_toStartOf="@+id/guideline5"
                     app:layout_constraintTop_toBottomOf="@+id/imageView20" />
@@ -474,6 +506,53 @@
             android:layout_weight=".05"
             android:background="@color/colorFooterPage">
 
+            <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/logomatricula"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/finger_paint"
+                android:text="SAIBA MAIS SOBRE O \nPROCESSO SELETIVO"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/guideline9"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_begin="133dp" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="81dp"
+                android:layout_height="38dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/button_border"
+                android:fontFamily="@font/fredoka_one"
+                android:text="CLIQUE AQUI!"
+                android:textColor="@color/colorFooterPage"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/textView17"
+                app:layout_constraintTop_toTopOf="parent" />
         </android.support.constraint.ConstraintLayout>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
